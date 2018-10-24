@@ -1,6 +1,6 @@
 from common.base import Base
 
-loginurl='https://pc.test-chexiu.cn/login/login'
+loginurl = "https://pc.test-chexiu.cn/login/login"
 
 class LoginPage(Base):
     '''登录页面'''
