@@ -5,8 +5,8 @@ from common.logger import logger as log
 class SMStemplate(Base):
     #页面元素定位
     qfzs_tab_loc=("xpath","//*[contains(@ui-sref,'market') and contains(@ui-sref-active, 'active')][1]")#“群发助手”
-    sms_tab_loc=("xpath","//*[@id='app']/div/div/market/layout/div/div/layout-body/main/aside/subnav/section/div[1]/div[3]/a/span")#“短信模板”
-    new_btn_loc=("xpath","/html/body/app/div/div/market/layout/div/div/layout-body/main/section/div/message-template/sms-template/div/div[2]/div/datatable/div/div[1]/div/div[1]/datatable-tools/buttoncell[1]")#【新增】
+    sms_tab_loc=("xpath","//*[contains(@ui-sref,'market.messageTemplate')]/span[1]")#“短信模板”
+    new_btn_loc=("xpath","//buttoncell[contains(@classname,'btn-primary')][1]")#【新增】
     sele_tag_loc=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[1]/tags/div/div[2]/div[5]/span")#“活动”标签
     tem_title_loc=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[3]/inputcell/div/div/div[2]/input")#“模板名称”输入框
     tem_detail=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[3]/textarea-cell/div/div/div[2]/textarea")#“模板内容”输入框
