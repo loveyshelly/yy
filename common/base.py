@@ -48,9 +48,16 @@ class Base():
         if not loctor:
             self.driver.switch_to.frame('ueditor_0')
             ele = self.driver.find_element_by_tag_name('body')
+            ele.send_keys(text)
+            self.driver.switch_to.default_content()
         else:
             ele = self.findElement(loctor)
-        ele.send_keys(text)
+            ele.send_keys(text)
+
+
+    def upload(self,  loctor, path):
+        ele = self.findElement(loctor)
+        ele.send_keys(path)
 
     def click(self,loctor):
         ele=self.findElement(loctor)

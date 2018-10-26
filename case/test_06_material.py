@@ -17,7 +17,7 @@ class TestAddSMStemplate(unittest.TestCase):
         cls.loginpage=LoginPage(cls.driver)
         cls.material_page = MaterialPage(cls.driver)
 
-    def test_add_smsTemplate(self):
+    def test_01(self):
         title=u"关于双11活动"
         abstract=u"活动细则说明"
         content=u"活动细则说明内容"

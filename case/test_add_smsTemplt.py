@@ -8,6 +8,7 @@ from selenium import webdriver
 import time
 from common.logger import logger as log
 
+
 class TestAddSMStemplate(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
