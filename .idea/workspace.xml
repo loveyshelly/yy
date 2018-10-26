@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7ddd2c2-1ddc-4554-8039-7a49ee452334" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/case/test_add_smsTemplt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/SMS_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_login_case_youyou.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_new_bug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_4scrm.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_4scrm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/editbug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/loginpage_shelly.py" beforeDir="false" />
-    </list>
+    <list default="true" id="b7ddd2c2-1ddc-4554-8039-7a49ee452334" name="Default" comment="" />
     <ignored path="jiaocheng.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test_login_case__1_.coverage" NAME="Unittests in test_login_case (1) Coverage Results" MODIFIED="1540359703149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test_login_case.coverage" NAME="Unittests in test_login_case Coverage Results" MODIFIED="1530698320607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/jiaocheng$editbug.coverage" NAME="editbug Coverage Results" MODIFIED="1530238448391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/jiaocheng$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1530697318302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/jiaocheng$t5.coverage" NAME="t5 Coverage Results" MODIFIED="1529995753932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
-    <SUITE FILE_PATH="coverage/jiaocheng$loginfuc.coverage" NAME="loginfuc Coverage Results" MODIFIED="1526019864376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
-    <SUITE FILE_PATH="coverage/jiaocheng$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1525747186892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
-    <SUITE FILE_PATH="coverage/4sSCRM$Unittests_in_test_login_case__1_.coverage" NAME="Unittests in test_login_case (1) Coverage Results" MODIFIED="1540365671448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test01.coverage" NAME="Unittests in test01 Coverage Results" MODIFIED="1529906387217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
-    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_loginfuc.coverage" NAME="Unittests in loginfuc Coverage Results" MODIFIED="1526018782849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
-    <SUITE FILE_PATH="coverage/4sSCRM$login_4scrm.coverage" NAME="login_4scrm Coverage Results" MODIFIED="1540517052886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/jiaocheng$t4.coverage" NAME="t4 Coverage Results" MODIFIED="1529982007253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
     <SUITE FILE_PATH="coverage/jiaocheng$zuoyongyulei.coverage" NAME="zuoyongyulei Coverage Results" MODIFIED="1529655364243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
+    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test01.coverage" NAME="Unittests in test01 Coverage Results" MODIFIED="1529906387217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
     <SUITE FILE_PATH="coverage/jiaocheng$base.coverage" NAME="base Coverage Results" MODIFIED="1530253936118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/4sSCRM$SMS_template.coverage" NAME="SMS_template Coverage Results" MODIFIED="1540518426105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/jiaocheng$chushihua.coverage" NAME="chushihua Coverage Results" MODIFIED="1529648771742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
-    <SUITE FILE_PATH="coverage/jiaocheng$people.coverage" NAME="people Coverage Results" MODIFIED="1529649970723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
-    <SUITE FILE_PATH="coverage/jiaocheng$loginpage__1_.coverage" NAME="loginpage (1) Coverage Results" MODIFIED="1530698073052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
-    <SUITE FILE_PATH="coverage/jiaocheng$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1529983070832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_TestNewBug__1_.coverage" NAME="Unittests in TestNewBug (1) Coverage Results" MODIFIED="1540523508544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/4sSCRM$Unittests_in_test_login_case__1_.coverage" NAME="Unittests in test_login_case (1) Coverage Results" MODIFIED="1540365671448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_test_login_case_youyou.coverage" NAME="Unittests in test_login_case_youyou Coverage Results" MODIFIED="1540522498482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_test_login_case.coverage" NAME="Unittests in test_login_case Coverage Results" MODIFIED="1540523569960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test_new_bug.coverage" NAME="Unittests in test_new_bug Coverage Results" MODIFIED="1530244491172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_t4.coverage" NAME="Unittests in t4 Coverage Results" MODIFIED="1526020208124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
-    <SUITE FILE_PATH="coverage/jiaocheng$t6.coverage" NAME="t6 Coverage Results" MODIFIED="1529999373040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_TestNewBug__3_.coverage" NAME="Unittests in TestNewBug (3) Coverage Results" MODIFIED="1540523548278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_LoginCase__2_.coverage" NAME="Unittests in LoginCase (2) Coverage Results" MODIFIED="1540522705185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test_login_case.coverage" NAME="Unittests in test_login_case Coverage Results" MODIFIED="1530698320607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_loginfuc.coverage" NAME="Unittests in loginfuc Coverage Results" MODIFIED="1526018782849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
+    <SUITE FILE_PATH="coverage/jiaocheng$loginpage__1_.coverage" NAME="loginpage (1) Coverage Results" MODIFIED="1530698073052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/jiaocheng$loginfuc.coverage" NAME="loginfuc Coverage Results" MODIFIED="1526019864376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
     <SUITE FILE_PATH="coverage/jiaocheng$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1525751316958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
-    <SUITE FILE_PATH="coverage/4sSCRM$Unittests_in_test_add_smsTemplt_py.coverage" NAME="Unittests in test_add_smsTemplt.py Coverage Results" MODIFIED="1540521946397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$t5.coverage" NAME="t5 Coverage Results" MODIFIED="1529995753932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
+    <SUITE FILE_PATH="coverage/jiaocheng$t6.coverage" NAME="t6 Coverage Results" MODIFIED="1529999373040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_TestNewBug__2_.coverage" NAME="Unittests in TestNewBug (2) Coverage Results" MODIFIED="1540523530963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$chushihua.coverage" NAME="chushihua Coverage Results" MODIFIED="1529648771742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
+    <SUITE FILE_PATH="coverage/jiaocheng$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1530697318302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/jiaocheng$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1529983070832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
+    <SUITE FILE_PATH="coverage/jiaocheng$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1525747186892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
+    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_t4.coverage" NAME="Unittests in t4 Coverage Results" MODIFIED="1526020208124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke6" />
+    <SUITE FILE_PATH="coverage/jiaocheng$Unittests_in_test_login_case__1_.coverage" NAME="Unittests in test_login_case (1) Coverage Results" MODIFIED="1540359703149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$t4.coverage" NAME="t4 Coverage Results" MODIFIED="1529982007253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke8" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_test_login_case__1_.coverage" NAME="Unittests in test_login_case (1) Coverage Results" MODIFIED="1540522339538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$editbug.coverage" NAME="editbug Coverage Results" MODIFIED="1530238448391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/yy$editbug.coverage" NAME="editbug Coverage Results" MODIFIED="1540523543157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_TestNewBug.coverage" NAME="Unittests in TestNewBug Coverage Results" MODIFIED="1540523004218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/jiaocheng$people.coverage" NAME="people Coverage Results" MODIFIED="1529649970723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ke7" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_LoginCase__1_.coverage" NAME="Unittests in LoginCase (1) Coverage Results" MODIFIED="1540523582963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yy$Unittests_in_LoginCase.coverage" NAME="Unittests in LoginCase Coverage Results" MODIFIED="1540523559617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FUSProjectUsageTrigger">
     <session id="-1052488668">
       <usages-collector id="statistics.lifecycle.project">
@@ -114,11 +115,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="177">
+              <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
               <folding>
                 <element signature="e#14#69#0" expanded="true" />
               </folding>
@@ -126,46 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/SMS_template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case/test_add_smsTemplt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-                <marker date="1540521943883" expanded="true" signature="198:203" ph="..." />
-                <marker date="1540521943883" expanded="true" signature="1219:1433" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login_4scrm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="14" column="124" lean-forward="true" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
-              <folding>
-                <element signature="e#15#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_login_case.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/test_login_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -173,11 +139,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_add_smsTemplt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_add_smsTemplt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginpage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/loginpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="92" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="92" />
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,6 +199,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ExcelUtil</find>
+      <find>case</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,17 +241,15 @@
         <option value="$PROJECT_DIR$/ke8/t.py" />
         <option value="$PROJECT_DIR$/ke8/t6.py" />
         <option value="$PROJECT_DIR$/case/test_add_bug.py" />
-        <option value="$PROJECT_DIR$/page/editbug.py" />
-        <option value="$PROJECT_DIR$/case/test_new_bug.py" />
         <option value="$PROJECT_DIR$/case/test_login_case_shelly.py" />
         <option value="$PROJECT_DIR$/page/loginpage_shelly.py" />
         <option value="$PROJECT_DIR$/common/base.py" />
-        <option value="$PROJECT_DIR$/page/loginpage.py" />
+        <option value="$PROJECT_DIR$/case/test_new_bug.py" />
+        <option value="$PROJECT_DIR$/page/editbug.py" />
         <option value="$PROJECT_DIR$/case/test_login_case.py" />
-        <option value="$PROJECT_DIR$/login_4scrm.py" />
-        <option value="$PROJECT_DIR$/case/test_add_sms.py" />
-        <option value="$PROJECT_DIR$/page/SMS_template.py" />
-        <option value="$PROJECT_DIR$/case/test_add_smsTemplt.py" />
+        <option value="$PROJECT_DIR$/page/loginpage.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/case/geckodriver.log" />
       </list>
     </option>
   </component>
@@ -247,10 +260,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="620" />
-    <option name="y" value="154" />
-    <option name="width" value="1936" />
-    <option name="height" value="1006" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -270,48 +282,78 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="4sSCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4sSCRM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4sSCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4sSCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4sSCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4sSCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4sSCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4sSCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4sSCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4sSCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_login_case.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginCase" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4scrms" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -504,6 +546,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -518,89 +563,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.25 at 17h 55m 31s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_LoginCase - 2018.10.26 at 11h 12m 39s.xml">
+      <configuration name="Unittests in LoginCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 09h 31m 01s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_LoginCase_(1) - 2018.10.26 at 11h 13m 13s.xml">
+      <configuration name="Unittests in LoginCase (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 09h 41m 47s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestNewBug_(1) - 2018.10.26 at 11h 11m 48s.xml">
+      <configuration name="Unittests in TestNewBug (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 09h 45m 22s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestNewBug_(2) - 2018.10.26 at 11h 12m 11s.xml">
+      <configuration name="Unittests in TestNewBug (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 09h 47m 32s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_TestNewBug_(3) - 2018.10.26 at 11h 12m 37s.xml">
+      <configuration name="Unittests in TestNewBug (3)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 09h 59m 36s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_case - 2018.10.26 at 11h 12m 50s.xml">
+      <configuration name="Unittests in test_login_case" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 10h 29m 20s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_case_(1) - 2018.10.24 at 13h 41m 59s.xml">
+      <configuration name="Unittests in test_login_case (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 10h 31m 19s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_case_(1) - 2018.10.24 at 15h 14m 48s.xml">
+      <configuration name="Unittests in test_login_case (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 10h 38m 39s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_case_(1) - 2018.10.24 at 15h 15m 41s.xml">
+      <configuration name="Unittests in test_login_case (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_add_smsTemplt_py - 2018.10.26 at 10h 42m 46s.xml">
-      <configuration name="Unittests in test_add_smsTemplt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_login_case_(1) - 2018.10.24 at 15h 21m 42s.xml">
+      <configuration name="Unittests in test_login_case (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="620" y="154" width="1936" height="1006" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4375716" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991131" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.69014084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991131" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -614,15 +630,68 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="tests">
-        <watch expression="case1[&quot;username&quot;]" language="Python" />
-        <watch expression="re" language="Python" />
-        <watch expression="t" language="Python" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/page/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_new_bug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ke6/t1.py" />
     <entry file="file://$PROJECT_DIR$/ke6/t2.py" />
     <entry file="file://$PROJECT_DIR$/ke6/t3.py" />
@@ -657,50 +726,32 @@
     <entry file="file://D:/python3.6.3/Lib/site-packages/selenium/webdriver/support/wait.py" />
     <entry file="file://D:/python3.6.3/Lib/contextlib.py" />
     <entry file="file://D:/python3.6.3/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/common/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_login_case_youyou.py" />
     <entry file="file://$PROJECT_DIR$/page/loginpage_shelly.py" />
     <entry file="file://$PROJECT_DIR$/page/editbug.py" />
-    <entry file="file://$PROJECT_DIR$/case/test_login_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/loginpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="92" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="92" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/pyhton3.6/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="451" column="8" selection-start-line="451" selection-start-column="8" selection-end-line="451" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/pyhton3.6/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/login_4scrm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="14" column="124" lean-forward="true" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
           <folding>
-            <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#15#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="177">
+          <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
           <folding>
             <element signature="e#14#69#0" expanded="true" />
           </folding>
@@ -716,12 +767,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/test_add_smsTemplt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
-            <marker date="1540521943883" expanded="true" signature="198:203" ph="..." />
-            <marker date="1540521943883" expanded="true" signature="1219:1433" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
