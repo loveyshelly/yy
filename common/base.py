@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
+from common.logger import logger as log
 
 class Base():
     def __init__(self,driver):
@@ -17,6 +18,7 @@ class Base():
         loctor 传元祖，如("id","xx")
         '''
         element = WebDriverWait(self.driver,self.timeout,self.poll).until(lambda x: x.find_element(*loctor))
+        log.info('find location: %s,  element: %s', loctor, element.text)
         return element
 
     def findElements(self,loctor):
@@ -43,7 +45,7 @@ class Base():
 
     def click(self,loctor):
         ele=self.findElement(loctor)
-        ele.click()
+        return ele.click()
 
     def clear(self,loctor):
         ele=self.findElement(loctor)
