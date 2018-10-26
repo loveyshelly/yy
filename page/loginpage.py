@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-.
 from common.base import Base
 
 loginurl = "https://pc.test-chexiu.cn/login/login"

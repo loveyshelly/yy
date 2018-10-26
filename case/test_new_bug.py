@@ -1,4 +1,5 @@
 #coding=utf-8
+#-*- coding: UTF-8 -*-.
 
 import unittest
 from page.loginpage_shelly import LoginPage

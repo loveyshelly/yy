@@ -1,4 +1,5 @@
 #coding=utf-8
+#-*- coding: UTF-8 -*-.
 
 from page.loginpage import LoginPage
 from selenium import webdriver
