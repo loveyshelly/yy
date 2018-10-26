@@ -1,14 +1,15 @@
 #-*- coding: UTF-8 -*-.
 from common.base import Base
+from common.logger import logger as log
 
 class SMStemplate(Base):
     #页面元素定位
     qfzs_tab_loc=("xpath","//*[@id='step1']/div[2]/a/span")#“群发助手”
     sms_tab_loc=("xpath","//*[@id='app']/div/div/market/layout/div/div/layout-body/main/aside/subnav/section/div[1]/div[3]/a/span")#“短信模板”
     new_btn_loc=("xpath","//*[@id='app']/div/div/market/layout/div/div/layout-body/main/section/div/message-template/sms-template/div/div[2]/div/datatable/div/div[1]/div/div[1]/datatable-tools/buttoncell[1]/div/a")#【新增】
-    sele_tag_loc=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[1]/tags/div/div[2]/div[5]/span")#“活动”标签
-    tem_title_loc=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[3]/inputcell/div/div/div[2]/input")#“模板名称”输入框
-    tem_detail=("xpath","//*[@id='msgArea']/div/div/div[2]/textarea")#“模板内容”输入框
+    sele_tag_loc=("xpath","//html/body/app/div/div/market/layout/div/div/layout-body/main/section/div/message-template/sms-template/div/div[2]/div/datatable/div/div[1]/div/div[1]/datatable-tools/buttoncell[1]/div/a")#“活动”标签
+    tem_title_loc=("xpath","//html/body/div[1]/div/div/edit-message-template/div/div[3]/inputcell/div/div/div[2]")#“模板名称”输入框
+    tem_detail=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[3]/textarea-cell/div/div/div[2]")#“模板内容”输入框
     confirm_loc=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[4]/buttoncell[1]/div/a")#确定
     page_index=("xpath","//*[@id='app']/div/div/market/layout/div/div/layout-body/main/section/div/message-template/sms-template/div/div[2]/div/datatable/div/div[1]/div/div[2]/span/selectcell/div/div/div/div/a/span[3]/b")#每页显示数量下拉框
     page_number=("xpath","//*[@id='ui-select-choices-row-0-1']/div/div")#每页显示50条
@@ -28,11 +29,12 @@ class SMStemplate(Base):
         self.click(self.sele_tag_loc)#选中“活动”标签
 
     def input_tem_title(self,text):
-
-        self.sendKeys(self.tem_title_loc,text)#输入模板名称
+        log.info('sending loc: %s, text: %s', self.tem_title_loc, text)
+        self.sendKeys(self.tem_title_loc, text)#输入模板名称
 
     def input_tem_detail(self,text):
         self.driver.switch_to_window#将焦点定位于弹出框
+        log.info('sending loc: %s, text: %s', self.tem_detail, text)
         self.sendKeys(self.tem_detail,text)#输入模板内容
 
     def click_confirm(self):

@@ -6,6 +6,7 @@ from page.loginpage import LoginPage
 from page.SMS_template import SMStemplate
 from selenium import webdriver
 import time
+from common.logger import logger as log
 
 class TestAddSMStemplate(unittest.TestCase):
     @classmethod
@@ -24,8 +25,9 @@ class TestAddSMStemplate(unittest.TestCase):
         self.smstemplate.click_new_btn()
         #在标签中选择“活动”
         self.smstemplate.click_sele_tag()
+        log.info('Done select..')
+        time.sleep(1)
         #输入模板名称
-        self.driver.switch_to_window  # 将焦点定位于弹出框
         self.smstemplate.input_tem_title(tem_title)
         #输入模板内容
         self.smstemplate.input_tem_detail(tem_detail)
@@ -41,8 +43,8 @@ class TestAddSMStemplate(unittest.TestCase):
         return re
 
     def test_add_smsTemplate(self):
-        tem_title="双11活动"
-        tem_detail="活动当天消费双倍积分"
+        tem_title=u"双11活动"
+        tem_detail=u"活动当天消费双倍积分"
         #获取实际结果
         re=self.add_smsTemplate(tem_title,tem_detail)
         #期望结果
