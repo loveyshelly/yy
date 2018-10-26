@@ -1,4 +1,4 @@
-
+#-*- coding: UTF-8 -*-.
 from common.base import Base
 
 class SMStemplate(Base):
