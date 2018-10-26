@@ -1307,3 +1307,192 @@ JavaScript error: http://zentao.maotukeji.com/js/all.js?v=9.5.1 line 3 > eval, l
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1540522188902	geckodriver	INFO	geckodriver 0.19.0
+1540522188972	geckodriver	INFO	Listening on 127.0.0.1:53139
+1540522190399	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/bg/zb3y2l554ndf8wm9vpk6vb_c0000gn/T/rust_mozprofile.sfWTLupUpuEF"
+2018-10-26 10:49:51.988 plugin-container[87586:25556046] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:49:52.235 plugin-container[87586:25556046] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x801f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:49:52.298 plugin-container[87587:25556108] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:49:52.371 plugin-container[87587:25556108] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7dd7, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522192612	Marionette	INFO	Listening on port 53149
+1540522192638	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540522192677	Marionette	DEBUG	[4294967297] Frame script loaded
+1540522192697	Marionette	DEBUG	[4294967297] Frame script registered
+1540522192754	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-10-26 10:49:52.951 plugin-container[87610:25556367] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8903, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:49:53.040 plugin-container[87610:25556367] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x899b, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522196209	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540522205105	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://pc.test-chexiu.cn/login/login
+1540522205215	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://pc.test-chexiu.cn/login/login
+1540522205687	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1540522207818	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://pc.test-chexiu.cn/
+1540522207876	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://pc.test-chexiu.cn/
+1540522207876	Marionette	DEBUG	[4294967297] Received DOM event unload for https://pc.test-chexiu.cn/
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1540522216746	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://pc.test-chexiu.cn/
+1540522216822	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://pc.test-chexiu.cn/
+1540522216829	Marionette	INFO	Stopped listening on port 53149
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1540522267702	geckodriver	INFO	geckodriver 0.19.0
+1540522267757	geckodriver	INFO	Listening on 127.0.0.1:53291
+1540522268869	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/bg/zb3y2l554ndf8wm9vpk6vb_c0000gn/T/rust_mozprofile.rsup9jSmiu9A"
+2018-10-26 10:51:10.218 plugin-container[88346:25561953] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:51:10.418 plugin-container[88346:25561953] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8abb, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:51:10.489 plugin-container[88347:25561982] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:51:10.576 plugin-container[88347:25561982] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x78d7, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522270768	Marionette	INFO	Listening on port 53300
+1540522270867	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540522270904	Marionette	DEBUG	[4294967297] Frame script loaded
+1540522270905	Marionette	DEBUG	[4294967297] Frame script registered
+1540522270952	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-10-26 10:51:11.147 plugin-container[88348:25562095] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522271193	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+2018-10-26 10:51:11.232 plugin-container[88348:25562095] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f93, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522280442	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://pc.test-chexiu.cn/login/login
+1540522280998	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://pc.test-chexiu.cn/login/login
+1540522281395	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1540522284267	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://pc.test-chexiu.cn/
+1540522284354	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://pc.test-chexiu.cn/
+1540522284354	Marionette	DEBUG	[4294967297] Received DOM event unload for https://pc.test-chexiu.cn/
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1540522293640	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://pc.test-chexiu.cn/
+1540522293704	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://pc.test-chexiu.cn/
+1540522293713	Marionette	INFO	Stopped listening on port 53300
+1540522339809	geckodriver	INFO	geckodriver 0.19.0
+1540522339864	geckodriver	INFO	Listening on 127.0.0.1:53438
+1540522340966	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/bg/zb3y2l554ndf8wm9vpk6vb_c0000gn/T/rust_mozprofile.zsqexIVawkg2"
+2018-10-26 10:52:22.399 plugin-container[88772:25567027] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:52:22.505 plugin-container[88772:25567027] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b63, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:52:22.674 plugin-container[88773:25567079] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7607, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 10:52:22.764 plugin-container[88773:25567079] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7683, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522342929	Marionette	INFO	Listening on port 53447
+1540522342964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540522343006	Marionette	DEBUG	[4294967297] Frame script loaded
+1540522343007	Marionette	DEBUG	[4294967297] Frame script registered
+1540522343045	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-10-26 10:52:23.316 plugin-container[88796:25567274] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x903f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522343355	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+2018-10-26 10:52:23.403 plugin-container[88796:25567274] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x90bb, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540522351925	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://pc.test-chexiu.cn/login/login
+1540522352024	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://pc.test-chexiu.cn/login/login
+1540522352396	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1540522354825	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://pc.test-chexiu.cn/
+1540522354979	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://pc.test-chexiu.cn/
+1540522354980	Marionette	DEBUG	[4294967297] Received DOM event unload for https://pc.test-chexiu.cn/
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://pc.test-chexiu.cn/app.bundle.06ab26ac9d940c97574e.js?06ab26ac9d940c97574e, line 24: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1540522368225	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://pc.test-chexiu.cn/
+1540522368336	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://pc.test-chexiu.cn/
+1540522368346	Marionette	INFO	Stopped listening on port 53447
+1540523004458	geckodriver	INFO	geckodriver 0.19.0
+1540523004520	geckodriver	INFO	Listening on 127.0.0.1:53769
+1540523005647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/bg/zb3y2l554ndf8wm9vpk6vb_c0000gn/T/rust_mozprofile.RE50RZ5vKnz5"
+2018-10-26 11:03:27.115 plugin-container[92685:25605556] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 11:03:27.306 plugin-container[92685:25605556] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x74bb, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 11:03:27.355 plugin-container[92686:25605590] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 11:03:27.436 plugin-container[92686:25605590] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7fbb, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540523007621	Marionette	INFO	Listening on port 53778
+1540523007669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540523007730	Marionette	DEBUG	[4294967297] Frame script loaded
+1540523007731	Marionette	DEBUG	[4294967297] Frame script registered
+1540523007787	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+2018-10-26 11:03:28.083 plugin-container[92687:25605738] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-26 11:03:28.171 plugin-container[92687:25605738] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b9f, name = 'com.apple.coredrag'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540523009496	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540523009838	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://zentao.maotukeji.com/index.php?m=user&f=login
+1540523009948	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://zentao.maotukeji.com/index.php?m=user&f=login
+1540523012217	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://zentao.maotukeji.com/index.php?m=user&f=login
+1540523012307	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://zentao.maotukeji.com/index.php?m=user&f=login
+1540523012307	Marionette	DEBUG	[4294967297] Received DOM event unload for http://zentao.maotukeji.com/index.php?m=user&f=login
+1540523012435	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://zentao.maotukeji.com/index.php?m=my&f=index
+1540523012486	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967301
+1540523012486	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967302
+1540523012495	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://zentao.maotukeji.com/index.php?m=my&f=index
+1540523014557	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://zentao.maotukeji.com/index.php?m=my&f=index
+1540523014614	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://zentao.maotukeji.com/index.php?m=my&f=index
+1540523014614	Marionette	DEBUG	[4294967297] Received DOM event unload for http://zentao.maotukeji.com/index.php?m=my&f=index
+1540523014688	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://zentao.maotukeji.com/index.php?m=qa&f=index
+1540523014724	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967307
+1540523014726	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://zentao.maotukeji.com/index.php?m=qa&f=index
+1540523014894	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://zentao.maotukeji.com/index.php?m=qa&f=index
+1540523015055	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://zentao.maotukeji.com/index.php?m=qa&f=index
+1540523015056	Marionette	DEBUG	[4294967297] Received DOM event unload for http://zentao.maotukeji.com/index.php?m=qa&f=index
+1540523015187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967310
+1540523015502	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://zentao.maotukeji.com/index.php?m=bug&f=browse&productID=4
+1540523015579	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://zentao.maotukeji.com/index.php?m=bug&f=browse&productID=4
+1540523015643	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://zentao.maotukeji.com/index.php?m=bug&f=browse&productID=4
+1540523015868	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://zentao.maotukeji.com/index.php?m=bug&f=browse&productID=4
+1540523015868	Marionette	DEBUG	[4294967297] Received DOM event unload for http://zentao.maotukeji.com/index.php?m=bug&f=browse&productID=4
+1540523015964	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed for 4294967313
+1540523016069	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://zentao.maotukeji.com/index.php?m=bug&f=create&productID=4&branch=0&extra=moduleID=0
+1540523016330	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://zentao.maotukeji.com/index.php?m=bug&f=create&productID=4&branch=0&extra=moduleID=0
+1540523016581	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1540523016814	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
