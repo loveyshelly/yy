@@ -1,4 +1,5 @@
 #coding=utf-8
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -43,8 +44,17 @@ class Base():
         ele=self.findElement(loctor)
         ele.send_keys(text)
 
+    def inputTextArea(self,  loctor, text):
+        if not loctor:
+            self.driver.switch_to.frame('ueditor_0')
+            ele = self.driver.find_element_by_tag_name('body')
+        else:
+            ele = self.findElement(loctor)
+        ele.send_keys(text)
+
     def click(self,loctor):
         ele=self.findElement(loctor)
+        log.info('clicking... location: %s, ele %s', loctor, ele.text)
         return ele.click()
 
     def clear(self,loctor):
