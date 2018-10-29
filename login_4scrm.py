@@ -12,6 +12,8 @@ ele2=driver.find_element_by_xpath("//*[@id='app']/div/div/login/div/div/div/div[
 time.sleep(10)
 ele3=driver.find_element_by_xpath("//*[@id='step1']/div[2]/a/span").click()#点击“群发助手”
 time.sleep(2)
+add_tem=driver.find_element_by_class_name("templateAdd pointer ng-scope").click()
+'''
 ele4=driver.find_element_by_xpath("//*[@id='app']/div/div/market/layout/div/div/layout-body/main/aside/subnav/section/div[1]/div[3]/a/span").click()#点击“短信模板”
 time.sleep(2)
 ele5=driver.find_element_by_xpath("//*[@id='app']/div/div/market/layout/div/div/layout-body/main/section/div/message-template/sms-template/div/div[2]/div/datatable/div/div[1]/div/div[1]/datatable-tools/buttoncell[1]/div/a/span").click()#点击“新增”
@@ -33,3 +35,4 @@ fanye=driver.find_element_by_xpath("//*[@id='ui-select-choices-row-0-1']/div/div
 time.sleep(2)
 js1 = "document.documentElement.scrollTop=10000"
 driver.execute_script(js1)
+'''

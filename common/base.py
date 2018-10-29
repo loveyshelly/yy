@@ -56,6 +56,10 @@ class Base():
         mos=self.findElement(loctor)#element是元素对象
         ActionChains(driver).move_to_element(mos).perform() #这里传的driver也可以写到方法的参数里,这样： moveToElement(self,loctor,driver)
 
+    def srollToFoot(self):
+        js1 = "document.documentElement.scrollTop=10000"
+        self.driver.execute_script(js1)
+
     def is_text_in_element(self,loctor,text):
         '''判断给定的text在这个元素的文本上
         要么返回true，要么返回false，不要让它抛异常

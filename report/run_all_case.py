@@ -1,18 +1,17 @@
-# coding:utf-8
+#coding=utf-8
+
 import unittest
-import time
 from common.HTMLTestRunner_api import HTMLTestRunner
 
-discover = unittest.defaultTestLoader.discover("D:\\sele_project_t9\\case",
+discover = unittest.defaultTestLoader.discover("E:\\PycharmProjects\\4sSCRM\\case",
                                                "test*.py")
 
-reportpath = "D:\\sele_project_t9\\report"+"\\report.html"
+reportpath = "E:\\PycharmProjects\\4sSCRM\\report"+"\\report.html"
 
 fp = open(reportpath, "wb")
 
 runner = HTMLTestRunner(fp,
                         title="这是我的报告",
-                        description="报告内容如下",
-                        retry=1,
-                        verbosity=1)
+                        description="报告内容如下"
+                       )
 runner.run(discover)
