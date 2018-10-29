@@ -36,3 +36,10 @@ time.sleep(2)
 js1 = "document.documentElement.scrollTop=10000"
 driver.execute_script(js1)
 '''
+ele=driver.find_element_by_link_text(<a class="subnav-hotspot" ui-sref="market.mobileTemplate" href="/market/mobileTemplate">
+        <span class="ng-binding">
+          活动模板
+        </span>
+        <!-- ngIf: item.tags && item.path !== 'customer.fans' -->
+        <!-- ngIf: item.tags && item.path === 'customer.fans' -->
+      </a>)
