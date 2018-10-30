@@ -1,11 +1,9 @@
 #-*- coding: UTF-8 -*-.
-from selenium.webdriver.common.keys import Keys
 
+from selenium.webdriver.common.keys import Keys
 from common.base import Base
 from common.logger import logger as log
 import time
-from selenium import webdriver
-from pymouse import PyMouse
 
 
 

@@ -1,7 +1,7 @@
 #coding=utf-8
 
 from common.base import Base
-from selenium import webdriver
+from common.logger import logger as log
 
 class AddActivity(Base):
 
@@ -23,3 +23,29 @@ class AddActivity(Base):
     add_act_dot=("xpath","//*[@id='app']/div/div/jike/layout/div/div/layout-body/main/section/div/gather-activity-detail/div/div/div/form/div/div[6]/div[1]/div[2]/editcell[1]/div/inputcell/div/div/div[2]/input")#定位亮点输入框
     share_abstract_loc=("xpath","//input[@placeholder='微信分享时图文消息的摘要']")#定位分享摘要输入框
     save_loc=("xpath","//buttoncell[@class='inline-block ng-scope ng-isolate-scope']")#定位保存按钮
+
+
+    def main(self,name,keys,cover_path,theme_path,stime,etime,eetime,money,reason,dot,s_abstract):
+
+        log.info('begin add activity')
+        self.click(AddActivity.qfzs_tab_loc)#点击群发助手
+        self.click(AddActivity.act_tab_loc)#点击活动模板
+        self.click(AddActivity.add_template)#点击添加模板
+        self.click(AddActivity.confirm_btn)#点击活动类型弹出框的【确认】
+        self.sendKeys(AddActivity.act_name,name)#输入活动名称
+        self.sendKeys(AddActivity.trigger_keys,keys)#输入触发关键字
+        self.sendKeys(AddActivity.cover_pic_loc,cover_path)#上传封面图片
+        self.sendKeys(AddActivity.theme_pic_loc,theme_path)#上传主题配图
+        self.sendKeys(AddActivity.act_stime_loc,stime)#填写活动开始时间
+        self.sendKeys(AddActivity.act_etime_loc,etime)#填写活动结束时间
+        self.sendKeys(AddActivity.enroll_etime_loc,eetime)#填写报名截止时间
+        self.sendKeys(AddActivity.pay_money_loc,money)#输入支付金额
+        self.sendKeys(AddActivity.pay_reason_loc,reason)#输入支付理由
+        self.click(AddActivity.act_dot_loc)#点击添加活动亮点
+        self.sendKeys(AddActivity.add_act_dot,dot)#输入活动亮点
+        self.sendKeys(AddActivity.share_abstract_loc,s_abstract)#输入分享摘要
+        self.click(AddActivity.save_loc)#点击保存
+        log.info('end activity page')
+
+
+

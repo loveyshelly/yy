@@ -9,14 +9,14 @@ from page.material_page import MaterialPage
 from selenium import webdriver
 from common.logger import logger as log
 
-class TestAddSMStemplate(unittest.TestCase):
+class TestAddMaterial(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver=webdriver.Firefox()
         cls.loginpage=LoginPage(cls.driver)
         cls.material_page = MaterialPage(cls.driver)
 
-    def test_01(self):
+    def test_add_material(self):
         title=u"关于双11活动"
         abstract=u"活动细则说明"
         content=u"活动细则说明内容"

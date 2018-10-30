@@ -4,7 +4,7 @@ from common.logger import logger as log
 
 class SMStemplate(Base):
     #页面元素定位
-    qfzs_tab_loc=("xpath","//*[contains(@ui-sref,'market') and contains(@ui-sref-active, 'active')][1]")#“群发助手”
+    qfzs_tab_loc=("xpath", "//*[@id='step1']/div[2]/a/span")#“群发助手”
     sms_tab_loc=("xpath","//*[contains(@ui-sref,'market.messageTemplate')]/span[1]")#“短信模板”
     new_btn_loc=("xpath","//buttoncell[contains(@classname,'btn-primary')][1]")#【新增】
     sele_tag_loc=("xpath","/html/body/div[1]/div/div/edit-message-template/div/div[1]/tags/div/div[2]/div[5]/span")#“活动”标签
