@@ -12,8 +12,25 @@ ele2=driver.find_element_by_xpath("//*[@id='app']/div/div/login/div/div/div/div[
 time.sleep(10)
 ele3=driver.find_element_by_xpath("//*[@id='step1']/div[2]/a/span").click()#点击“群发助手”
 time.sleep(2)
-add_tem=driver.find_element_by_class_name("templateAdd pointer ng-scope").click()
+article_button_loc =driver.find_element_by_xpath("//*[contains(@ui-sref,'market.material')]/span[1]").click() # 素材管理
+time.sleep(2)
+article_button_new_loc = driver.find_element_by_xpath("//a[contains(@class, 'btn-primary')]/span[1]").click() # 新建图文消息
+time.sleep(2)
+article_title_loc = driver.find_element_by_xpath("//div[contains(@class,'material-title')]/input[1]").send_keys("双11") # 标题
+time.sleep(2)
+article_author_loc = driver.find_element_by_xpath("//div[contains(@class,'material-author')]/input[1]").send_keys("双11111")  # 作者名称
+time.sleep(2)
+article_abstract_loc =driver.find_element_by_xpath("//div[contains(@class,'material-abstract')]/div/textarea[1]").send_keys("双110000")   # 摘要
+time.sleep(2)
+# article_picture_loc = ("xpath", "//*[text()='上传图片']")
+article_picture_loc = driver.find_element_by_xpath("//div[contains(@class, 'image-upload-button')]/input[1]").send_keys("E:\\work\qd_testing\test_data\pictures\audi.jpg")# 图片
+#time.sleep(2)
+#article_content_loc = driver.find_element_by_xpath("//textarea[@id='ueditor_textarea_editorValue']").send_keys("shuoming")  # 内容
+time.sleep(2)
+article_save_loc =driver.find_element_by_xpath ("//a/span[text()='保存素材'][1]").click()  # save
+time.sleep(2)
 '''
+add_tem=driver.find_element_by_class_name("templateAdd pointer ng-scope").click()
 ele4=driver.find_element_by_xpath("//*[@id='app']/div/div/market/layout/div/div/layout-body/main/aside/subnav/section/div[1]/div[3]/a/span").click()#点击“短信模板”
 time.sleep(2)
 ele5=driver.find_element_by_xpath("//*[@id='app']/div/div/market/layout/div/div/layout-body/main/section/div/message-template/sms-template/div/div[2]/div/datatable/div/div[1]/div/div[1]/datatable-tools/buttoncell[1]/div/a/span").click()#点击“新增”
@@ -36,10 +53,3 @@ time.sleep(2)
 js1 = "document.documentElement.scrollTop=10000"
 driver.execute_script(js1)
 '''
-ele=driver.find_element_by_link_text(<a class="subnav-hotspot" ui-sref="market.mobileTemplate" href="/market/mobileTemplate">
-        <span class="ng-binding">
-          活动模板
-        </span>
-        <!-- ngIf: item.tags && item.path !== 'customer.fans' -->
-        <!-- ngIf: item.tags && item.path === 'customer.fans' -->
-      </a>)

@@ -4,7 +4,6 @@
 import unittest
 
 import time
-
 from page.loginpage import LoginPage
 from page.material_page import MaterialPage
 from selenium import webdriver
@@ -26,7 +25,6 @@ class TestAddSMStemplate(unittest.TestCase):
         self.loginpage.login()
         time.sleep(10)
         #获取实际结果
-
         res = self.material_page.main(title, author, abstract, content)
         #期望结果
         log.info(res)
