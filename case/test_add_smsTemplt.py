@@ -2,7 +2,7 @@
 #-*- coding: UTF-8 -*-.
 
 import unittest
-from page.loginpage import LoginPage
+from page.login_page import LoginPage
 from page.SMS_template import SMStemplate
 from selenium import webdriver
 import time

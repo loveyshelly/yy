@@ -4,8 +4,8 @@ import unittest
 import time
 import datetime
 from common.logger import logger as log
-from page.loginpage import LoginPage
-from page.add_activity import AddActivity
+from page.login_page import LoginPage
+from page.add_activity_page import AddActivity
 from selenium import webdriver
 
 class TestAddActivity(unittest.TestCase):

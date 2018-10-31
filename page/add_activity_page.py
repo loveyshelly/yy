@@ -25,7 +25,8 @@ class AddActivity(Base):
     share_abstract_loc=("xpath","//input[@placeholder='微信分享时图文消息的摘要']")#定位分享摘要输入框
     save_loc=("xpath","//buttoncell[@class='inline-block ng-scope ng-isolate-scope']")#定位保存按钮
     sure_loc=("xpath","//a[contains(@class, 'btn-danger')]")#定位弹出框中的确定按钮
-    next_loc=("xpath","//div[@class='inline-block pointer']")#定位下一步按钮
+    next_loc = ("xpath", "//span[contains(text(),'下一步')]")#定位下一步按钮
+    #next_loc=("xpath","//div[@class='inline-block pointer']")#定位下一步按钮
     input_phone_loc=("xpath","//textarea[@placeholder='手动输入号码请用英文逗号或换行分隔。']")#定位号码输入框
     send_loc=("xpath","//buttoncell[@class='ml-20 inline-block ng-scope ng-isolate-scope' and @ng-click='$ctrl.goSend()']")#定位发送按钮
 

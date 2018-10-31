@@ -1,6 +1,6 @@
 #coding=utf-8
 
-from page.loginpage import LoginPage
+from page.login_page import LoginPage
 from selenium import webdriver
 import unittest
 

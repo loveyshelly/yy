@@ -4,7 +4,7 @@
 import unittest
 
 import time
-from page.loginpage import LoginPage
+from page.login_page import LoginPage
 from page.material_page import MaterialPage
 from selenium import webdriver
 from common.logger import logger as log
