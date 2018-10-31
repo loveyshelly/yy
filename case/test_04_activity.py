@@ -2,7 +2,7 @@
 
 import unittest
 import time
-
+import datetime
 from common.logger import logger as log
 from page.loginpage import LoginPage
 from page.add_activity import AddActivity
@@ -21,18 +21,20 @@ class TestAddActivity(unittest.TestCase):
         keys="11"
         cover_path = "E:\\a8.jpg"
         theme_path = "E:\\a3.jpg"
-        stime="2018-10-31"
-        etime="2018-11-12"
-        eetime="2018-11-01"
+        stime=(datetime.date.today() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+        etime=(datetime.date.today() + datetime.timedelta(days=10)).strftime('%Y-%m-%d')
+        eetime=(datetime.date.today() + datetime.timedelta(days=5)).strftime('%Y-%m-%d')
         money="100"
         reason="活动经费"
         dot="多重优惠"
         s_abstract="省更多"
+        tphone="13424399553"
+
         #登录
         self.loginpage.login()
         time.sleep(10)
         #获取实际结果
-        re=self.add_activity_page.main(name,keys,cover_path,theme_path,stime,etime,eetime,money,reason,dot,s_abstract)
+        re=self.add_activity_page.main(name,keys,cover_path,theme_path,stime,etime,eetime,money,reason,dot,s_abstract,tphone)
         #期望结果
         log.info('re')
 
