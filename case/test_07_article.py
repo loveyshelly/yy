@@ -1,6 +1,7 @@
 #coding=utf-8
 
 import unittest
+import time
 from common.logger import logger as log
 from page.login_page import LoginPage
 from page.publish_article_page import PublishArticlePage
@@ -15,13 +16,14 @@ class TestPublisArticle(unittest.TestCase):
 
     def test_publish_article(self):
 
-        title="测试文章标题"
+        title="shelly test title"
         coverpath="E:\\a8.jpg"
-        content="测试文章标题"
+        acontent="shelly test content"
         #登录
         self.loginpage.login()
+        time.sleep(10)
         #获取实际结果
-        re=PublishArticlePage.main(title,coverpath,content)
+        re=self.publis_article_page.main(title,coverpath,acontent)
         # 期望结果
         log.info('re')
 
