@@ -3,7 +3,7 @@
 import time
 from common.base import Base
 from common.logger import logger as log
-from selenium import webdriver
+
 
 class PublishArticlePage(Base):
 
