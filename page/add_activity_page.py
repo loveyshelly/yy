@@ -24,11 +24,12 @@ class AddActivity(Base):
     add_act_dot=("xpath","//*[@id='app']/div/div/jike/layout/div/div/layout-body/main/section/div/gather-activity-detail/div/div/div/form/div/div[6]/div[1]/div[2]/editcell[1]/div/inputcell/div/div/div[2]/input")#定位亮点输入框
     share_abstract_loc=("xpath","//input[@placeholder='微信分享时图文消息的摘要']")#定位分享摘要输入框
     save_loc=("xpath","//buttoncell[@class='inline-block ng-scope ng-isolate-scope']")#定位保存按钮
-    sure_loc=("xpath","//a[contains(@class, 'btn-danger')]")#定位弹出框中的确定按钮
-    next_loc = ("xpath", "//span[contains(text(),'下一步')]")#定位下一步按钮
-    #next_loc=("xpath","//div[@class='inline-block pointer']")#定位下一步按钮
-    input_phone_loc=("xpath","//textarea[@placeholder='手动输入号码请用英文逗号或换行分隔。']")#定位号码输入框
-    send_loc=("xpath","//buttoncell[@class='ml-20 inline-block ng-scope ng-isolate-scope' and @ng-click='$ctrl.goSend()']")#定位发送按钮
+    cancel_loc= ("xpath", "//a[@class='btn-plain')]")#定位取消按钮
+    # sure_loc=("xpath","//a[contains(@class, 'btn-danger')]")#定位弹出框中的确定按钮
+    # next_loc = ("xpath", "//span[contains(text(),'下一步')]")#定位下一步按钮
+    # #next_loc=("xpath","//div[@class='inline-block pointer']")#定位下一步按钮
+    # input_phone_loc=("xpath","//textarea[@placeholder='手动输入号码请用英文逗号或换行分隔。']")#定位号码输入框
+    # send_loc=("xpath","//buttoncell[@class='ml-20 inline-block ng-scope ng-isolate-scope' and @ng-click='$ctrl.goSend()']")#定位发送按钮
 
 
     def main(self,name,keys,cover_path,theme_path,stime,etime,eetime,money,reason,dot,s_abstract,tphone):
@@ -70,14 +71,16 @@ class AddActivity(Base):
         self.sendKeys(AddActivity.share_abstract_loc,s_abstract)#输入分享摘要
         time.sleep(2)
         self.click(AddActivity.save_loc)#点击保存
-        time.sleep(5)
-        self.click(AddActivity.sure_loc)#点击确定
-        time.sleep(5)
-        self.click(AddActivity.next_loc)#点击下一步
-        time.sleep(2)
-        self.click(AddActivity.input_phone_loc,tphone)#输入号码
-        time.sleep(2)
-        self.click(AddActivity.send_loc)#点击发送按钮
+        self.click(AddActivity.cancel_loc)#点击弹出框中的取消按钮
+
+        # time.sleep(5)
+        # self.click(AddActivity.sure_loc)#点击确定
+        # time.sleep(5)
+        # self.click(AddActivity.next_loc)#点击下一步
+        # time.sleep(2)
+        # self.click(AddActivity.input_phone_loc,tphone)#输入号码
+        # time.sleep(2)
+        # self.click(AddActivity.send_loc)#点击发送按钮
 
         log.info('end activity page')
 
