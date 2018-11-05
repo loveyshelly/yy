@@ -17,12 +17,15 @@ class TestDataImpot(unittest.TestCase):
 
     def test_data_import(self):
         userdata = "E:\\车主导入.xlsx"
+        cardata="E:\\车辆导入.xlsx"
+        maintenancedata="E:\\维保导入.xlsx"
+        renewaldata="E:\\续保导入.xlsx"
 
         #登录
         self.loginpage.login()
         time.sleep(10)
         #获取实际结果
-        re=self.data_import.main(userdata)
+        re=self.data_import.main(userdata,cardata,maintenancedata,renewaldata)
         #期望结果
         log.info("re")
 
