@@ -55,7 +55,7 @@ class Base():
             ele.send_keys(text)
 
 
-    def upload(self,  loctor, path):
+    def upload(self, loctor, path):
         ele = self.findElement(loctor)
         ele.send_keys(path)
 
