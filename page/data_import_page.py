@@ -18,7 +18,7 @@ class DataImportPage(Base):
         log.info("begin data_import page")
         self.click(DataImportPage.data_import_loc)#点击“数据导入”
         time.sleep(2)
-        self.upload(DataImportPage.upload_user_loc,DataImportPage.userdata)#上传车主数据
+        self.upload(DataImportPage.upload_user_loc,userdata)#上传车主数据
         time.sleep(10)
         self.click(DataImportPage.start_import_loc)#点击开始导入
         time.sleep(10)
