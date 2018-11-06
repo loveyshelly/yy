@@ -13,7 +13,7 @@ class MaterialPage(Base):
     #profile = webdriver.FirefoxProfile(profileDir)
     #driver = webdriver.Firefox(profile)
 
-    article_tab_loc=("xpath","//*[contains(@ui-sref,'market') and contains(@ui-sref-active, 'active')][1]")#群发助手
+    article_tab_loc=("xpath","//*[@id='step1']/div[2]/a/span")#群发助手
     article_button_loc=("xpath","//*[contains(@ui-sref,'market.material')]/span[1]")#素材管理
     article_button_new_loc=("xpath","//a[contains(@class, 'btn-primary')]/span[1]")#新建图文消息
     article_title_loc=("xpath","//div[contains(@class,'material-title')]/input[1]")#标题

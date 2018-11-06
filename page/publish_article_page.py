@@ -7,7 +7,7 @@ from common.logger import logger as log
 
 class PublishArticlePage(Base):
 
-    qfzs_tab_loc = ("xpath", "//*[contains(@ui-sref,'market') and contains(@ui-sref-active, 'active')][1]")  # 定位“群发助手”
+    qfzs_tab_loc = ("xpath", "//*[@id='step1']/div[2]/a/span")  # 定位“群发助手”
     pub_list_loc=("xpath","//a[@class='subnav-hotspot'and @href='/market/promotion']")#定位发布文章菜单
     pub_btn_loc=("xpath","//span[contains(text(),'发布文章')and @class='ng-scope']")#定位发布文章按钮
     title_loc = ("xpath", "//*[@id='app']/div/div/market/layout/div/div/layout-body/main/section/div/promotion-add/div/div[1]/form/promotion-article/div/div[1]/inputcell/div/div/div[2]/input")  # 定位文章标题输入框

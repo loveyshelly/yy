@@ -5,8 +5,8 @@ from common.base import Base
 from common.logger import logger as log
 
 class WechatMsendPage(Base):
-
-    qfzs_tab_loc = ("xpath", "//*[contains(@ui-sref,'market') and contains(@ui-sref-active, 'active')][1]")  # 定位“群发助手”
+    qfzs_tab_loc = ("xpath", "//*[@id='step1']/div[2]/a/span")  # 定位“群发助手”
+    #qfzs_tab_loc = ("xpath", "//*[contains(@ui-sref,'market') and contains(@ui-sref-active, 'active')][1]")  # 定位“群发助手”
     wesend_list_loc = ("xpath", "//span[contains(text(),'微信群发')]")
     wecontent_loc=("xpath","//textarea[@placeholder='请输入文字......']")#定位微信内容文本框
     atten_time_loc=("xpath","//*[@id='app']/div/div/market/layout/div/div/layout-body/main/section/div/wechatgroupsend/div/div/tabwechat/div/div[2]/div[3]/div/div[2]/div/div[2]/form-all/div/div/div/div[2]/radio/div/div/div/div/div[2]")
