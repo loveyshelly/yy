@@ -3,7 +3,7 @@
 
 import unittest
 from page.login_page import LoginPage
-from page.SMS_template import SMStemplate
+from page.sms_template import SMStemplate
 from selenium import webdriver
 import time
 from common.logger import logger as log

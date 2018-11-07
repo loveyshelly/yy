@@ -1,7 +1,6 @@
 #coding=utf-8
 
 import time
-from selenium import webdriver
 from common.base import Base
 from common.logger import logger as log
 
