@@ -9,6 +9,7 @@ class DrawRecordsPage(Base):
     reward_convert_loc = ("xpath", "//span[contains(text(),'奖励兑换') and @class='ng-binding ng-scope']")  # 定位奖励兑换菜单
     draw_records_loc=("xpath","//span[contains(text(),'领取记录')]")#定位兑换记录
     export_loc=("xpath","//span[contains(text(),'导出')]")#定位导出
+    download_loc = ("xpath", "//a[@class='inline-block file-export-master text-primary ng-scope']")  # 定位下载导出文件
 
     def main(self):
         self.click(DrawRecordsPage.qfzs_tab_loc)#点击“群发助手”
@@ -16,4 +17,5 @@ class DrawRecordsPage(Base):
         self.click(DrawRecordsPage.reward_convert_loc)#点击奖励兑换菜单
         self.click(DrawRecordsPage.draw_records_loc)#点击领取记录菜单
         self.click(DrawRecordsPage.export_loc)#点击导出按钮
+        self.click(DrawRecordsPage.download_loc)#点击下载导出文件
 
