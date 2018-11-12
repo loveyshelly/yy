@@ -21,7 +21,7 @@ class LoginPage(Base):
         self.driver.refresh()
 
 
-    def login(self, username, psw):
+    def login(self, username="cheshangtongscrm", psw="16888cst"):
         '''登录流程:'''
         log.info("begin login page")
         self.open_login_page()

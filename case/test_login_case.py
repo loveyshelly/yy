@@ -12,8 +12,7 @@ class LoginCase(unittest.TestCase):
         cls.loginpage=LoginPage(cls.driver) #实例化登录页面
 
     def test_login(self):
-        username = "13544772266"
-        psw = "123456"
+
         # 获取实际结果
         re=self.loginpage.login(username,psw)
         #期望结果
