@@ -22,11 +22,12 @@ class TestCreatCoupon(unittest.TestCase):
         introductions="多买优惠越多"
         notices="仅限本人使用"
         number="100"
+        instructions="双12活动在即"
         #登录
         self.loginpage.login()
         time.sleep(10)
         #获取实际结果
-        re=self.creat_coupon_page.main(coupon_name,money,liveTime,introductions,notices,number)
+        re=self.creat_coupon_page.main(coupon_name,money,liveTime,introductions,notices,number,instructions)
         #期望结果
         log.info("re")
 
