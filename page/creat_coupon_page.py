@@ -13,7 +13,7 @@ class CreatCouponPage(Base):
     input_money=("xpath","//*[@id='app']/div/div/jike/layout/div/div/layout-body/main/section/div/coupon-detail/div/div[2]/div/form/div/editcell[5]/div/inputcell/div/div/div[2]/input")#定位金额输入框
     live_time=("xpath","//i[@class='glyphicon glyphicon-calendar']")#定位使用期限输入框
     coupon_introduction=("xpath","//*[@id='app']/div/div/jike/layout/div/div/layout-body/main/section/div/coupon-detail/div/div[2]/div/form/div/editcell[6]/div/inputcell/div/div/div[2]/input")#定位至优惠说明输入框
-    use_notice=("xpath","//textarea[@class='ng-pristine ng-valid ng-empty ng-valid-maxlength ng-touched']")#定位使用须知文本框
+    use_notice=("xpath","//textarea[@ng-model='$ctrl.value']")[0]#定位使用须知文本框
     input_num=("xpath","//input[@class='ng-pristine ng-valid ng-empty ng-valid-maxlength ng-touched']")[0]#定位数量输入框
     save_loc=("xpath","//span[contains(text(),'保存并提交审核')]")#定位保存并提交审核
 
