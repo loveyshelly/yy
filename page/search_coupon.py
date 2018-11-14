@@ -6,7 +6,7 @@ import time
 
 
 class SearchCoupon(Base):
-    collector_tools_loc=("xpath","//a[@ui-sref='jike']")#定位“集客工具”
+    collector_tools_loc=("xpath","//span[contains(text(),'集客工具')]")#定位“集客工具”
     coupon_loc=("xpath","//span[contains(text(),'优惠券')]")#定位至优惠券菜单
     grant_loc=("xpath","//a[@ui-sref='jike.couponGrant']")#定位至发放
     input_coupon_name=("xpath","//*[@id='app']/div/div/jike/layout/div/div/layout-body/main/section/div/coupon-grant/div/div/form/div[1]/inputcell/div/div/div[2]/input")#定位搜索框
@@ -21,7 +21,7 @@ class SearchCoupon(Base):
         self.sendKeys(SearchCoupon.input_coupon_name,name)#输入关键字
         time.sleep(2)
         self.click(SearchCoupon.search_loc)#点击查询
-        log.info("begin grant coupon page")
+        log.info("end grant coupon page")
 
 
 
