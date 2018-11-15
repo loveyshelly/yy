@@ -13,9 +13,11 @@ class ConvertRecordspage(Base):
 
 
     def main(self):
+        log.info("begin covert record page")
         self.click(ConvertRecordspage.qfzs_tab_loc)#点击“群发助手”
         time.sleep(5)
         self.click(ConvertRecordspage.reward_convert_loc)#点击奖励兑换菜单
         self.click(ConvertRecordspage.covert_records_loc)#点击兑换记录菜单
         self.click(ConvertRecordspage.export_loc)#点击导出按钮
         self.click(ConvertRecordspage.download_loc)#点击下载导出文件
+        log.info("end covert record page")

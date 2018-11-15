@@ -60,7 +60,7 @@ class Base():
         ele.send_keys(path)
 
     def click(self,loctor):
-        ele=self.findElement(loctor)
+        ele=self.findElementNew(loctor)
         log.info('clicking... location: %s, ele %s', loctor, ele.text)
         return ele.click()
 
