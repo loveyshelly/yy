@@ -10,6 +10,7 @@ class CovertConsumePage(Base):
     covert_tab = ("xpath", "//a[@ui-sref='jike.couponExchange']")# 定位至兑换菜单
     input_code=("xpath","//input[@placeholder='请输入优惠券兑换码']")#定位至兑换码输入框
     covert_loc=("xpath","//a[@class='btn-primary']")#定位兑换按钮
+    sure_loc=("xpath","//span[contains(text(),'确定')]")#定位确定
 
     def main(self,code):
         log.info("begin covert coupon page")
@@ -18,6 +19,7 @@ class CovertConsumePage(Base):
         self.click(CovertConsumePage.covert_tab)#点击兑换菜单
         self.sendKeys(CovertConsumePage.input_code,code)#输入兑换码
         self.click(CovertConsumePage.covert_loc)#点击兑换
+        self.click(CovertConsumePage.sure_loc)#点击确定
         log.info("end covert coupon page")
 
 

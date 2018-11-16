@@ -8,16 +8,16 @@ from common.logger import logger as log
 
 class DataImportPage(Base):
     data_import_loc = ("xpath", "//*[@id='step1']/div[7]/a/span")  # 定位“数据导入”
-    upload_user_loc=("xpath","//input[@id='txt_upload']")#定位车主数据——上传数据表
+    upload_user_loc=("xpath","//div[contains(text(),'上传数据表')]")#定位车主数据——上传数据表
     start_importu_loc=("xpath","//span[text()='开始导入']")#定位开始导入-车主数据
     car_data_loc=("xpath","//a[@ui-sref='sync.carData']")#定位车辆数据页面
-    upload_car_loc = ("xpath", "//input[@id='txt_upload']")  # 定位车辆数据——上传数据表
+    upload_car_loc = ("xpath", "//div[contains(text(),'上传数据表')]")  # 定位车辆数据——上传数据表
     start_importc_loc = ("xpath", "//span[text()='开始导入']")#定位开始导入-车辆
     maintenance_data_loc = ("xpath", "//a[@ui-sref='sync.maintenanceData']")  # 定位维保数据页面
-    upload_maintenance_loc = ("xpath", "//input[@id='txt_upload']")  # 定位维保数据——上传数据表
+    upload_maintenance_loc = ("xpath", "//div[contains(text(),'上传数据表')]")  # 定位维保数据——上传数据表
     start_importm_loc = ("xpath", "//span[text()='开始导入']")  # 定位开始导入-维保
     renewal_data_loc = ("xpath", "//a[@ui-sref='sync.renewalData']")  # 定位续保数据页面
-    upload_renewal_loc = ("xpath", "//input[@id='txt_upload']")  # 定位续保数据——上传数据表
+    upload_renewal_loc = ("xpath", "//div[contains(text(),'上传数据表')]")  # 定位续保数据——上传数据表
     start_importr_loc = ("xpath", "//span[text()='开始导入']")  # 定位开始导入-续保
 
 
