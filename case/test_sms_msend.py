@@ -3,7 +3,7 @@
 import time
 import unittest
 from selenium import webdriver
-from page.login_page import LoginPage
+from page.login1_page import LoginPage
 from page.sms_msend_page import SmsMsendPage
 from common.logger import logger as log
 
@@ -26,7 +26,7 @@ class TestSmsMsend(unittest.TestCase):
         log.info("re")
 
     def tearDown(self):
-        pass
+        self.driver.close()
 
 if __name__=="__main__":
     unittest.main()

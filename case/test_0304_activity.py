@@ -4,7 +4,7 @@ import unittest
 import time
 import datetime
 from common.logger import logger as log
-from page.login_page import LoginPage
+from page.login1_page import LoginPage
 from page.add_activity_page import AddActivity
 from selenium import webdriver
 
@@ -18,7 +18,7 @@ class TestAddActivity(unittest.TestCase):
 
     def test_add_activity(self):
         name="双11大促"
-        keys="11"
+        keys="12"
         cover_path = "E:\\a8.jpg"
         theme_path = "E:\\a3.jpg"
         stime=(datetime.date.today() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
@@ -39,7 +39,7 @@ class TestAddActivity(unittest.TestCase):
         log.info('re')
 
     def tearDown(self):
-        pass
+        self.driver.close()
 
 if __name__=="__main__":
     unittest.main()

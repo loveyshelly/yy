@@ -11,7 +11,7 @@ class LoginCase(unittest.TestCase):
         cls.driver=webdriver.Firefox()
         cls.loginpage=LoginPage(cls.driver) #实例化登录页面
 
-    def test_login(self):
+    def test_login(self,username,psw):
 
         # 获取实际结果
         re=self.loginpage.login(username,psw)
@@ -20,7 +20,7 @@ class LoginCase(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        pass
+        cls.driver.close()
 
 if __name__=="__main__":
     unittest.main()

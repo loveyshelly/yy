@@ -2,7 +2,7 @@
 
 import time
 import unittest
-from page.login_page import LoginPage
+from page.login1_page import LoginPage
 from page.wechat_msend_page import WechatMsendPage
 from selenium import webdriver
 from common.logger import logger as log
@@ -26,7 +26,8 @@ class TestWechatSend(unittest.TestCase):
         log.info('re')
 
     def tearDown(self):
-        pass
+        self.driver.close()
+
 
 if __name__=="__main__":
     unittest.main()

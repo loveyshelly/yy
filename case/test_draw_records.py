@@ -23,7 +23,7 @@ class TestDrawRecords(unittest.TestCase):
         log.info("re")
 
     def tearDown(self):
-        pass
+        self.driver.close()
 
 if __name__=="__main__":
     unittest.main()

@@ -20,7 +20,7 @@ class TestConvertRecords(unittest.TestCase):
         re=self.covert_records_page.main()
 
     def tearDown(self):
-        pass
+        self.driver.close()
 
 if __name__=="__main__":
     unittest.main()

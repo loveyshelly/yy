@@ -55,8 +55,7 @@ class TestAddSMStemplate(unittest.TestCase):
 
 
     def tearDown(self):
-        pass
-
+        self.driver.close()
 if __name__=="__main__":
     unittest.main()
 
